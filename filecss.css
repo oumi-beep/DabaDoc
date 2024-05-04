@@ -154,7 +154,7 @@
   .has-before::before {
     content: "";
     position: absolute;
-  }
+  } 
 
   .Make_appointement {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
