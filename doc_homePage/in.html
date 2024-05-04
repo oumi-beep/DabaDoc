@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page divisée en deux parties</title>
+  <!-- CSS Bootstrap -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="in.css">
+  <link rel="stylesheet" href="header_footer.css">
+
+</head>
+
+<body>
+    <header class="header" data-header >
+        <div class="containesr">
+          <nav class="navbar" data-navbar>
+            <ul class="navbar-brand">
+              <a class="navbar-brand" href="#"> <img src="logo-removebg.png" alt="LogoHospital"> DabaDoc  </a>
+              <li class="nav-item">
+                <a href="#" class="navbar-link title-md">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="navbar-link title-md">Doctors</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="navbar-link title-md">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="navbar-link title-md">Patient</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="navbar-link title-md">Secretary</a>
+              </li>
+              <a href="#" class=" navbar-link Make_appointement has-before title-md">Appointment</a>
+            </ul> 
+        </nav>
+  
+        </div>
+      </header>
+  <div class="containeer">
+    <div class="row">
+      <!-- Colonne de gauche -->
+      <div class="col-lg-4">
+        <div class="member">
+            <div class="member__img">
+              <img src="9.jpg" alt="member img">
+            </div><!-- /.member-img -->
+            <div class="member__info">
+              <h5 class="member__name"><a href="doctors-single-doctor1.html">Mike Dooley</a></h5>
+              <p class="member__job par">Cardiology Specialist</p>
+              <p class="member__desc par">Muldoone obtained his undergraduate degree in Biomedical Engineering at Tulane
+                University prior to attending St George's University School of Medicine</p>
+              <div class="mt-20 ">
+                <ul class="social-iconss  mb-0">
+                  <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#" class="phone"><i class="fas fa-phone-alt"></i></a></li>
+                </ul><!-- /.social-icons -->
+              </div>
+            </div><!-- /.member-info -->
+          </div>
+        <div class="widget widget-help bg-overlay bg-overlay-primary-gradient">
+          <div class="widget-content">
+
+            <h4 class="widget__title">Emergency Cases</h4>
+            <p class="widget__desc">Please feel welcome to contact our friendly reception staff with any general
+              or medical enquiry call us.
+            </p>
+            <a href="tel:+201061245741" class="phone__number">
+              <i class="icon-phone"></i> <span>01061245741</span>
+            </a>
+          </div><!-- /.widget-content -->
+        </div><!-- /.widget-help -->
+
+        <div class="widget widget-schedule">
+          <div class="widget-content">
+            <div class="widget__icon">
+              <i class="icon-charity2"></i>
+            </div>
+            <h4 class="widget__title">Opening Hours</h4>
+            <ul class="time__list list-unstyled mb-0">
+              <li><span>Monday - Friday</span><span>8.00 - 7:00 pm</span></li>
+              <li><span>Saturday</span><span>9.00 - 10:00 pm</span></li>
+              <li><span>Sunday</span><span>10.00 - 12:00 pm</span></li>
+            </ul>
+          </div><!-- /.widget-content -->
+        </div><!-- /.widget-schedule -->
+
+        <div class="widget widget-reports">
+          <a href="#" class="btn btn__primary btn__block">
+            <i class="icon-pdf-file"></i>
+            <span>2024 Patient Reports</span>
+          </a>
+        </div><!-- /.widget-reports -->
+      </div><!-- /.col-lg-4 -->
+
+      <!-- Colonne de droite -->
+      <div class="col-lg-8">
+        <div class="text-block mb-50">
+          <h5 class="text-block__title">Biography</h5>
+          <p class="text-block__desc mb-20 font-weight-bold color-secondary">A neurologist is a medical doctor with
+            specialized training
+            in diagnosing, treating, and managing disorders of the brain and nervous system including, but not
+            limited to, Alzheimer's disease, amyotrophic lateral sclerosis (ALS), concussion, epilepsy, migraine,
+            multiple sclerosis, Parkinson's disease, and stroke.</p>
+          <p class="text-block__desc mb-20">He then traveled to Philadelphia, Pennsylvania to complete a Fellowship
+            in Intervention Cardiology at Hahnemann Hospital in conjunction with Drexel University, where he
+            received extensive training in coronary as well as peripheral interventions and limb salvage procedures.
+            He actively participates in clinical research trials and has been published in peer reviewed journals
+            such as the Journal of the State Medical Society and Baylor University Medical Center's Proceedings.</p>
+          <p class="text-block__desc mb-20">In his spare time, watches college and professional football and enjoys
+            traveling, swimming and playing chess. He is currently Board Certified in Cardiovascular Disease and
+            Interventional Cardiology. He moved to California where he completed both his Internship ('85-'86) and
+            Residency ('87-'89) at the University of California.</p>
+        
+            <ul class="details-list list-unstyled mb-60">
+              <li>
+                <h5 class="details__title">Speciality</h5>
+                <div class="details__content">
+                  <p class="mb-0">Cardiology </p>
+                </div>
+              </li>
+              <li>
+                <h5 class="details__title">Degrees</h5>
+                <div class="details__content">
+                  <p class="mb-0">M.D. of Medicine </p>
+                </div>
+              </li>
+              <li>
+                <h5 class="details__title">Areas of Expertise</h5>
+                <div class="details__content">
+                  <ul class="list-items list-items-layout2 list-unstyled mb-0">
+                    <li>Cardiac Imaging - Non-invasive.</li>
+                    <li>Cardiac Rehabilitation and Exercise.</li>
+                    <li>Hypertrophic Cardiomyopathy.</li>
+                    <li>Inherited Heart Diseases.</li>
+                  </ul>
+                </div>
+              </li>
+              <li>
+                <h5 class="details__title">Office</h5>
+                <div class="details__content">
+                  <p class="mb-0">2307 Beverley Rd Brooklyn, New York 11226 United States.</p>
+                </div>
+              </li>
+              <li>
+                <h5 class="details__title">University</h5>
+                <div class="details__content">
+                  <p class="mb-0">Harvard University</p>
+                </div>
+              </li>
+            </ul>
+            <div class="text-block mb-50">
+              <h5 class="text-block__title">Doctor's Services</h5>
+              <p class="text-block__desc mb-20">He actively participates in clinical research trials and has been
+                published in peer reviewed journals such as the Journal of the State Medical Society and Baylor
+                University Medical Center's Proceedings. At Hahnemann Hospital in conjunction with Drexel University,
+                where he received extensive training in coronary as well as peripheral interventions and limb salvage
+                procedures.
+              </p>
+            </div><!-- /.text-block -->
+            <div class="pricing-widget-layout3 mb-70">
+              <h5 class="pricing__title">Treatments Price List</h5>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="pricing__list list-unstyled mb-0">
+                    <li><span>Umbilical Cord Appearance</span><span class="price">$50</span></li>
+                    <li><span>Cardiac Electrophysiology</span><span class="price">$45</span></li>
+                    <li><span>Repositioning Techniques</span><span class="price">$60</span></li>
+                    <li><span>Geriatric Neurology</span><span class="price">$65</span></li>
+                    <li><span>Nuclear Cardiology</span><span class="price">$40</span></li>
+                    <li><span>Nuclear Cardiology</span><span class="price">$55</span></li>
+                  </ul><!-- /.pricing__list -->
+                </div><!-- /.col-md-6 -->
+                <div class="col-md-6">
+                  <ul class="pricing__list list-unstyled mb-0">
+                    <li><span>Umbilical Cord Appearance</span><span class="price">$50</span></li>
+                    <li><span>Cardiac Electrophysiology</span><span class="price">$45</span></li>
+                    <li><span>Repositioning Techniques</span><span class="price">$60</span></li>
+                    <li><span>Geriatric Neurology</span><span class="price">$65</span></li>
+                    <li><span>Nuclear Cardiology</span><span class="price">$40</span></li>
+                    <li><span>Nuclear Cardiology</span><span class="price">$55</span></li>
+                  </ul><!-- /.pricing__list -->
+                </div><!-- /.col-md-6 -->
+              </div><!-- /.pricing-widget-layout3 -->
+            </div><!-- /.text-block -->
+            <div class="text-block mb-50">
+              <h5 class="text-block__title">Awards And Honours</h5>
+              <p class="text-block__desc mb-20">Today the hospital is recognised as a world renowned institution, not
+                only providing outstanding care and treatment, but improving the outcomes for all through a
+                comprehensive medical research. For over 20 years, our hospital has touched lives of millions of people,
+                and provide care and treatment for the sickest in our community including rehabilitation and aged care.
+              </p>
+            </div><!-- /.text-block -->
+            <div class="fancybox-layout2">
+              <div class="row">
+                <div class="col-sm-6">
+                  <!-- fancybox item #1 -->
+                  <div class="fancybox-item d-flex">
+                    <div class="fancybox__icon">
+                      <i class="icon-diploma"></i>
+                    </div><!-- /.fancybox__icon -->
+                    <div class="fancybox__content">
+                      <h4 class="fancybox__title">Edison Awards</h4>
+                      <p class="fancybox__desc">Honoring excellence in innovation</p>
+                    </div><!-- /.fancybox-content -->
+                  </div><!-- /.fancybox-item -->
+                </div><!-- /.col-sm-6 -->
+                <div class="col-sm-6">
+                  <!-- fancybox item #2 -->
+                  <div class="fancybox-item d-flex">
+                    <div class="fancybox__icon">
+                      <i class="icon-diploma"></i>
+                    </div><!-- /.fancybox__icon -->
+                    <div class="fancybox__content">
+                      <h4 class="fancybox__title">Edwin Grant Medal</h4>
+                      <p class="fancybox__desc">Research in developmental biology</p>
+                    </div><!-- /.fancybox-content -->
+                  </div><!-- /.fancybox-item -->
+                </div><!-- /.col-sm-6 -->
+                <div class="col-sm-6">
+                  <!-- fancybox item #3 -->
+                  <div class="fancybox-item d-flex">
+                    <div class="fancybox__icon">
+                      <i class="icon-diploma"></i>
+                    </div><!-- /.fancybox__icon -->
+                    <div class="fancybox__content">
+                      <h4 class="fancybox__title">Robert L. Noble Prize</h4>
+                      <p class="fancybox__desc">Canadian Cancer Society</p>
+                    </div><!-- /.fancybox-content -->
+                  </div><!-- /.fancybox-item -->
+                </div><!-- /.col-sm-6 -->
+                <div class="col-sm-6">
+                  <!-- fancybox item #4 -->
+                  <div class="fancybox-item d-flex">
+                    <div class="fancybox__icon">
+                      <i class="icon-diploma"></i>
+                    </div><!-- /.fancybox__icon -->
+                    <div class="fancybox__content">
+                      <h4 class="fancybox__title">National Prize for Medicine</h4>
+                      <p class="fancybox__desc">Chilean Academy of Medicine etc.</p>
+                    </div><!-- /.fancybox-content -->
+                  </div><!-- /.fancybox-item -->
+                </div><!-- /.col-sm-6 -->
+              </div><!-- /.row -->
+            </div><!-- /.fancybox-layout2 -->
+            <div class="text-block mb-40">
+              <h5 class="text-block__title">Medical Education</h5>
+              <p class="text-block__desc mb-20">She then went to LSU Medical School in New Orleans where she was an
+                Honors Program Graduate and finished in the top quartile of his graduating class. She completed his
+                Internal Medicine Residency at the University of Alabama in Birmingham, AL where he was selected as a
+                Chief Internal Medicine Resident.
+              </p>
+            </div><!-- /.text-block -->
+            <div class="timeline-wrapper mb-60">
+              <!-- Timeline Item #1 -->
+              <div class="timeline-item d-flex">
+                <span class="timeline__year">2020</span>
+                <div class="timeline__body">
+                  <h4 class="timeline__title">Royal College of Surgeons of Harvard</h4>
+                  <p class="timeline__desc mb-0">We partner with you to enable your technology so that you can focus on
+                    your organization's mission leverage our talent, and creativity to help your business succeed above
+                    all your business competitors.
+                  </p>
+                </div><!-- /.timeline__body -->
+              </div><!-- /.timeline-item -->
+              <!-- Timeline Item #2 -->
+              <div class="timeline-item d-flex">
+                <span class="timeline__year">2015</span>
+                <div class="timeline__body">
+                  <h4 class="timeline__title">Fellowship, Royal College of Physicians of Harvard</h4>
+                  <p class="timeline__desc mb-0">After relocating to Louisiana she served as Director of the Cardiac
+                    Catheterization Lab at Regional Medical Center of Acadiana. She was honored by the Medical
+                    Association for Physician's Recognition Award from March of 2015 through May 2016.
+                  </p>
+                </div><!-- /.timeline__body -->
+              </div><!-- /.timeline-item -->
+              <!-- Timeline Item #3 -->
+              <div class="timeline-item d-flex">
+                <span class="timeline__year">2015</span>
+                <div class="timeline__body">
+                  <h4 class="timeline__title">Residency, St. Harvard University Hospital</h4>
+                  <p class="timeline__desc mb-0">Dr has also had professional accomplishments at the University of
+                    Southern California School of Medicine and Medical Center including Instructor of Medicine, Chief
+                    Administrative Fellow, Division of Cardiology University of Southern California.
+                  </p>
+                </div><!-- /.timeline__body -->
+              </div><!-- /.timeline-item -->
+            </div><!-- /.timeline-wrapper -->
+            <div class="text-block mb-40">
+              <h5 class="text-block__title">Doctor's Skills</h5>
+              <p class="text-block__desc mb-20">He completed his Internal Medicine Residency at the University of
+                Alabama in Birmingham, AL where he was selected as a Chief Internal Medicine Resident. He then went to
+                LSU Medical School in New Orleans where he was an Honors Program Graduate and finished in the top
+                quartile of his graduating class.
+              </p>
+            </div><!-- /.text-block -->
+            <div class="animated-Progressbars mb-60">
+              <!-- progress 1 -->
+              <div class="progress-item">
+                <h5 class="progress__title">Cardiac Rehabilitation</h5>
+                <div class="progress">
+                  <div class="progress-bar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" role="progressbar">
+                    <span class="progress__percentage"></span>
+                  </div>
+                </div><!-- /.progress -->
+              </div><!-- /.progress-item  -->
+              <!-- progress 2 -->
+              <div class="progress-item">
+                <h5 class="progress__title">Nuclear Cardiology</h5>
+                <div class="progress">
+                  <div class="progress-bar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" role="progressbar">
+                    <span class="progress__percentage"></span>
+                  </div>
+                </div><!-- /.progress -->
+              </div><!-- /.progress-item  -->
+              <!-- progress 3 -->
+              <div class="progress-item">
+                <h5 class="progress__title">Neurocritical Care</h5>
+                <div class="progress">
+                  <div class="progress-bar" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100" role="progressbar">
+                    <span class="progress__percentage"></span>
+                  </div>
+                </div><!-- /.progress -->
+              </div><!-- /.progress-item  -->
+            </div><!-- /.animated-Progressbars -->
+    </div>
+    </div>
+    </div>
+
+    <footer class="footer" style="background-color: #77B0AA ;">
+        <div class="container">
+    
+          <div class="section footer-top">
+    
+            <div class="footer-brand" data-reveal="bottom">
+    
+              <a href="#" class="logo">
+                <img src="LogoHospital.jpg" width="200" height="120" loading="lazy" alt="DabaDoc home">
+              </a>
+    
+              <ul class="contact-list has-after">
+    
+                <li class="contact-item">
+    
+                  <div class="item-icon">
+                    <ion-icon name="mail-open-outline"></ion-icon>
+                  </div>
+                  <div class="email_tele">
+                    <p>
+                      Main Email : <a href="mailto:contact@website.com" class="contact-link">contact@&shy;website.com</a>
+                    </p>
+    
+                    <p>
+                      Inquiries : <a href="mailto:Info@mail.com" class="contact-link">Info@mail.com</a>
+                    </p>
+                  </div>
+    
+                </li>
+    
+                <li class="contact-item">
+    
+                  <div class="item-icon">
+                    <ion-icon name="call-outline"></ion-icon>
+                  </div>
+    
+                  <div class="email_tele">
+                    <p>
+                      Office Telephone : <a href="tel:0029129102320" class="contact-link">0029129102320</a>
+                    </p>
+    
+                    <p>
+                      Mobile : <a href="tel:000232439493" class="contact-link">000 2324 39493</a>
+                    </p>
+                  </div>
+    
+                </li>
+    
+              </ul>
+    
+            </div>
+    
+            <div class="footer-list" data-reveal="bottom">
+    
+              <p class="headline-sm footer-list-title">About Us</p>
+    
+              <p class="text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              </p>
+    
+              <address class="address">
+                <ion-icon name="map-outline"></ion-icon>
+    
+                <span class="text">
+                  2416 Mapleview Drive <br>
+                  Tampa, FL 33634
+                </span>
+              </address>
+    
+            </div>
+    
+            <ul class="footer-list" data-reveal="bottom">
+    
+              <li>
+                <p class="headline-sm footer-list-title">Services</p>
+              </li>
+    
+              <li>
+                <a href="#" class="text footer-link">Conditions</a>
+              </li>
+    
+              <li>
+                <a href="#" class="text footer-link">Listing</a>
+              </li>
+    
+              <li>
+                <a href="#" class="text footer-link">How It Works</a>
+              </li>
+    
+              <li>
+                <a href="#" class="text footer-link">What We Offer</a>
+              </li>
+    
+              <li>
+                <a href="#" class="text footer-link">Latest News</a>
+              </li>
+    
+              <li>
+                <a href="#" class="text footer-link">Contact Us</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list" data-reveal="bottom">
+    
+              <li>
+                <p class="headline-sm footer-list-title">Useful Links</p>
+              </li>
+    
+              <li>
+                <a href="#" class="text footer-link">Conditions</a>
+              </li>
+    
+              <li>
+                <a href="#" class="text footer-link">Terms of Use</a>
+              </li>
+    
+              <li>
+                <a href="#" class="text footer-link">Our Services</a>
+              </li>
+    
+              <li>
+                <a href="#" class="text footer-link">Join as a Doctor</a>
+              </li>
+    
+              <li>
+                <a href="#" class="text footer-link">New Guests List</a>
+              </li>
+    
+              <li>
+                <a href="#" class="text footer-link">The Team List</a>
+              </li>
+    
+            </ul>
+    
+            <div class="footer-list" data-reveal="bottom">
+    
+              <p class="headline-sm footer-list-title">Subscribe</p>
+    
+              <form action="" class="footer-form">
+                <input type="email" name="email" placeholder="Email" class="input-field title-lg">
+    
+                <button type="submit" class="Subscribe has-before title-md">Subscribe</button>
+              </form>
+                  
+              <p class="text">
+                Get the latest updates via email. Any time you may unsubscribe
+              </p>
+    
+            </div>
+    
+          </div>
+    
+          <div class="footer-bottom">
+    
+            <p class="text copyright">
+              &copy; DabaDoc 2024 | All Rights Reserved by The Team Members.
+            </p>
+    
+            <ul class="social-list">
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-google"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li> 
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-pinterest"></ion-icon>
+                </a>
+              </li>
+    
+            </ul>
+    
+          </div>
+    
+        </div>
+      </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+  <script src="js.js"></script> 
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+</body>
+
+</html>
